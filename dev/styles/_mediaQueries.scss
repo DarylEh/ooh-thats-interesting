@@ -40,6 +40,9 @@
     a.btn.btn-primary {
         font-size: 0.5rem;
     }
+    input[type=radio] {
+        vertical-align: baseline;
+    }
 }
 /* ----- BREAK POINT: 480px -----*/
 @media (max-width: 480px) {
@@ -58,7 +61,7 @@
     font-size: .8rem;
     }
     label {
-        font-size: .4rem;
+        font-size: .7rem;
     }
     input[id=relevance],
     input[id=top],
@@ -66,13 +69,13 @@
         display: inline-block;
     }
     input[type=radio] {
-        margin-left: 15px;
+        margin-left: 8px;
         vertical-align: bottom;
         ~ label {
             margin-left: 5px;
         }
     }
-    input[type=radio] ~ p {
+    form#search-form p {
         display: block;
     }
     label + h3 {
